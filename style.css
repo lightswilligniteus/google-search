@@ -1,0 +1,25 @@
+
+.rightalign {
+  float: right;
+}
+
+.leftalgin {
+  float:left;
+}
+
+.center {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.border {
+  background-color: grey;
+}
+
+.inline {
+  display:inline-block;
+}
+
+div {
+  width: 100%;
+}
