@@ -1,10 +1,15 @@
 
 .rightalign {
-  text-align: right;
+  float: right;
+}
+
+body {
+  font-family: arial,sans-serif;
+  font-size: small;
 }
 
 .leftalign {
-  text-align:left;
+  float:left;
 }
 
 background {
@@ -18,7 +23,6 @@ background {
 
 .header {
     padding: 10px 10px 10px 20px;
-    background-color: blue;
 }
 
 .border {
@@ -37,4 +41,19 @@ p {
   padding: 10px 10px 10px 20px;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
+}
+
+.signin {
+    background-color: #4285F4;
+    color: white;
+    padding: 5px;
+    border: 1px solid #4285F4;
+}
+
+.searchbutton {
+    background-color: #f5f5f5;
+    color: #757575;
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+    font-weight: bold;
 }
