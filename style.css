@@ -1,6 +1,7 @@
 
 .rightalign {
   float: right;
+  text-align: end;
 }
 
 body {
@@ -35,6 +36,7 @@ div {
 
 p, a {
   color: rgba(0,0,0,.54);
+    padding: 5px;
 }
 
 p {
@@ -44,16 +46,20 @@ p {
 }
 
 .signin {
-    background-color: #4285F4;
-    color: white;
-    padding: 5px;
-    border: 1px solid #4285F4;
+  background-color: #4285F4;
+  color: white;
+  padding: 10px;
+  border: 1px solid #4285F4;
 }
 
 .searchbutton {
-    background-color: #f5f5f5;
-    color: #757575;
-    padding: 10px;
-    border: 1px solid #f5f5f5;
-    font-weight: bold;
+  background-color: #f5f5f5;
+  color: #757575;
+  padding: 10px;
+  border: 1px solid #f5f5f5;
+  font-weight: bold;
+}
+.searchfield {
+  padding: 10px;
+  width: 200px;
 }
