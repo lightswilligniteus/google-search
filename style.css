@@ -1,10 +1,14 @@
 
 .rightalign {
-  float: right;
+  text-align: right;
 }
 
-.leftalgin {
-  float:left;
+.leftalign {
+  text-align:left;
+}
+
+background {
+    background-color: #f2f2f2;
 }
 
 .center {
@@ -12,14 +16,25 @@
   width: 100px;
 }
 
-.border {
-  background-color: grey;
+.header {
+    padding: 10px 10px 10px 20px;
+    background-color: blue;
 }
 
-.inline {
-  display:inline-block;
+.border {
+  background-color: #f2f2f2;
 }
 
 div {
   width: 100%;
+}
+
+p, a {
+  color: rgba(0,0,0,.54);
+}
+
+p {
+  padding: 10px 10px 10px 20px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
 }
