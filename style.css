@@ -13,25 +13,21 @@ body {
   float:left;
 }
 
-background {
+.background {
     background-color: #f2f2f2;
 }
 
 .center {
   margin: 0 auto;
-  width: 100px;
 }
 
 .header {
     padding: 10px 10px 10px 20px;
+    width: 100%;
 }
 
 .border {
   background-color: #f2f2f2;
-}
-
-div {
-  width: 100%;
 }
 
 p, a {
