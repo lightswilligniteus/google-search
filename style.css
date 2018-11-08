@@ -1,6 +1,7 @@
 
 nav {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ebebeb;
 }
 
 footer {
@@ -30,6 +31,21 @@ img {
   width: 50%;
 }
 
+.topfunctions {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 44%;
+}
+
+.topfunctions a:active {
+  font-weight: bold;
+  border-bottom: 2px solid blue;
+}
+
+.topfunctions-right {
+  float: right;
+}
+
 .leftalign-footer {
   float:left;
   padding-left: 15px;
@@ -42,11 +58,11 @@ img {
 }
 
 .background {
-    background-color: #f2f2f2;
-    width: 100%;
-    padding: 10px 0px 10px 0px;
-    border-bottom: 1px solid #e4e4e4;
-    display: inline-block;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid #e4e4e4;
+  display: inline-block;
 }
 
 .center {
