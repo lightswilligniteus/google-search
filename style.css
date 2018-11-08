@@ -1,9 +1,6 @@
 
 nav {
-  float: right;
-  text-align: end;
-  padding: 10px 10px 10px 20px;
-  width: 100%;
+  background-color: #f2f2f2;
 }
 
 footer {
@@ -17,6 +14,20 @@ body {
   font-family: arial,sans-serif;
   font-size: small;
   height: 100%;
+  margin: 0px;
+}
+
+img {
+  float: left;
+  padding-top: 3px;
+  height: 45px;
+  padding-right: 20px;
+}
+
+.topsearch {
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 50%;
 }
 
 .leftalign-footer {
@@ -85,11 +96,10 @@ p {
 }
 
 .searchfield {
-  padding: 10px;
-  width: 400px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 70%;
   border: 2px solid #e4e4e4;
   border-radius: 1px;
   position: relative;
-  left:20%;
-  margin-left: -145px;
 }
